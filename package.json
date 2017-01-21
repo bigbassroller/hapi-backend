@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Hapi.js backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigbassroller/hapi-backend.git"
+  },
+  "keywords": [
+    "Hapi.js",
+    "Node.js"
+  ],
+  "author": "Michael Chavez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigbassroller/hapi-backend/issues"
+  },
+  "homepage": "https://github.com/bigbassroller/hapi-backend#readme",
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "nodemon": "^1.11.0"
+  }
+}
