@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+backend-container:
+image: bigbassroller/backend-container:latest
+ports:
+- "3000:3000"
+restart: always
+volumes:
+- ./backend-container:/usr/src/app
