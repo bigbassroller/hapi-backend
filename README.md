@@ -11,7 +11,7 @@ Hapi Backend Docker Container
 `docker-compose up -d`
 
 Viola':
-`[http://localhost:3000](http://localhost:3000/)`
+[`http://localhost:3000`](http://localhost:3000/)
 
 Monitor App:
 `docker logs hapi-backend -f`
