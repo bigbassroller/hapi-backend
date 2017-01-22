@@ -2,7 +2,7 @@ version: '2'
 services:
   hapi-backend-container:
     container_name: hapi-backend
-    image: bigbassroller/backend-container
+    image: bigbassroller/hapi-backend
     build: .
     ports:
      - "3000:3000"
