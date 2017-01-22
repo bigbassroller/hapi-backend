@@ -1,8 +1,6 @@
 # hapi-backend
 Hapi Backend Docker Container
 
-# How to use:
-
 ## Getting Started:
 
 `git clone https://github.com/bigbassroller/hapi-backend && cd hapi-backend`
