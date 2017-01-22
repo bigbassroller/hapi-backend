@@ -1,10 +1,10 @@
 version: '2'
 services:
-
-backend-container:
-image: bigbassroller/backend-container:latest
-ports:
-- "3000:3000"
-restart: always
-volumes:
-- ./backend-container:/usr/src/app
+  hapi-backend-container:
+    container_name: hapi-backend
+    image: bigbassroller/backend-container
+    build: .
+    ports:
+     - "3000:3000"
+    volumes:
+     - .:/usr/src/app
