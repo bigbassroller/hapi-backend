@@ -1,5 +1,10 @@
 FROM node:alpine
 
+MAINTAINER bigbassroller <bigbassroller@gmail.com>
+
+# Install bash
+RUN apk add --update bash && rm -rf /var/cache/apk/*
+
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
