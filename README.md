@@ -2,8 +2,10 @@
 Hapi Backend Docker Container
 
 # How to use:
-`git clone https://github.com/bigbassroller/hapi-backend && hapi-backend`
+`git clone https://github.com/bigbassroller/hapi-backend && cd hapi-backend`
+
 `npm install`
+
 `docker-compose up -d`
 
 ## Build Image:
