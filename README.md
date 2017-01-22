@@ -21,3 +21,5 @@ Hapi Backend Docker Container
 `docker run -p 3000:3000 -d <username>/hapi-backend`
 ## Run Image with mounted volume:
 `docker run -p 3000:3000 -v  "$PWD"/:/usr/src/app --name hapi-backend -d <username>/hapi-backend`
+## Go into container shell:
+`docker exec -it hapi-backend bash`
